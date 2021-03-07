@@ -30,4 +30,4 @@ jobs:
     - name: Run Surge installation
       run: npm install -g surge
     - name: deploy using surge 
-      run: surge ./ husnain-ahmed-quiz-app.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build/ husnain-ahmed-quiz-app.surge.sh --token ${{ secrets.SURGE_TOKEN }}
