@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Automatic Deployment on Surge
+name: Quiz App deployment on Surge
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -32,4 +32,4 @@ jobs:
     - name: Run Surge installation
       run: npm install -g surge
     - name: deploy using surge 
-      run: surge ./ husnain-quiz-app.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./ husnain-ahmed-quiz-app.surge.sh --token ${{ secrets.SURGE_TOKEN }}
