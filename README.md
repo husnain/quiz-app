@@ -64,7 +64,7 @@ In this project, you can run the following scripts:
 
 ## Credits
 
-QuizApp is built and maintained by [Safdar Jamal](https://husnain.github.io).
+QuizApp is built and maintained by [Husnain Ahmed](https://husnain.github.io).
 
 ## License
 
